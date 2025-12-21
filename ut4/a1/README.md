@@ -9,7 +9,8 @@ En esta practica hemos creado tres tipos de Diagramas de clases, siendo estos:
 
   - Ut4_a1
 
-Enunciado: Una plataforma de formación online necesita un sistema que permita gestionar cursos, usuarios y el proceso de matriculación y evaluación. Realizar un diagrama de clases UML que permita modelar el sistema atendiendo a las siguientes premisas:
+Enunciado:
+Una plataforma de formación online necesita un sistema que permita gestionar cursos, usuarios y el proceso de matriculación y evaluación. Realizar un diagrama de clases UML que permita modelar el sistema atendiendo a las siguientes premisas:
 
 La plataforma gestiona usuarios registrados, de los cuales se almacenan un identificador, nombre y correo electrónico, y que pueden iniciar y cerrar sesión en el sistema. Existen dos tipos de usuarios: alumnos y profesores. Los alumnos, además de los datos comunes, disponen de un número de expediente y pueden matricularse en cursos ofrecidos por la plataforma, así como consultar las calificaciones obtenidas. Los profesores, identificados también como usuarios, cuentan con una especialidad y son los responsables de crear cursos y de evaluar a los alumnos en las distintas actividades.
 
@@ -26,13 +27,13 @@ Los profesores utilizan las calificaciones exclusivamente en el momento de evalu
 A partir de estas premisas, se deberá identificar correctamente las clases implicadas, sus atributos y métodos, así como deducir el tipo de relación existente entre ellas y las cardinalidades correspondientes, utilizando notación UML estándar.
 
 
-   Primero he creado el diagram de clases en el cual he colocado las asociaciones asi como sus cardinalidades.
+   - Primero he creado el diagram de clases en el cual he colocado las asociaciones asi como sus cardinalidades.
 
 <img width="1873" height="1002" alt="Captura de pantalla 2025-12-21 110906" src="https://github.com/user-attachments/assets/456d7741-6c47-4130-bb20-fdcda279453e" />
     
 <img width="457" height="673" alt="Captura de pantalla 2025-12-21 113548" src="https://github.com/user-attachments/assets/6717f787-12ec-4248-bb85-fd1d85568004" />
 
-  Despues de acabar el diagrama he usado el "git add ." "git commit -m" y el "git push" para subir el archivo al repositorio.
+  - Despues de acabar el diagrama he usado el "git add ." "git commit -m" y el "git push" para subir el archivo al repositorio.
 
 <img width="1104" height="577" alt="Captura de pantalla 2025-12-21 113904" src="https://github.com/user-attachments/assets/a552e376-1660-4fc2-9b47-323cebbbcf9c" />
 
