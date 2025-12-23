@@ -120,7 +120,11 @@ Un `git push` previo no es la causa directa del conflicto, sino las diferencias 
 
 ![Preparando conflicto](https://github.com/user-attachments/assets/2b13ce88-be5d-4b9f-a017-341c3a517a4d)
 
+---
+
 - Se edita el archivo para resolver el conflicto:
+
+  
 ![Resolviendo conflicto con vim](https://github.com/user-attachments/assets/5ad2d8ce-a075-4ca9-8ef7-a1fefe2301d4)
 
 ![Pendiente de push](https://github.com/user-attachments/assets/22770bac-b310-49a2-a40c-f227bd7450eb)
