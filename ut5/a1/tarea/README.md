@@ -20,15 +20,15 @@ Una empresa quiere desarrollar un sistema para gestionar una **plataforma de re
     - Todos los casos de uso principales.
     - Las posibles relaciones include y extend que consideres necesarias.
 
-| ACTOR    |    DESCRIPCION DEL ACTOR          |           CASOS DE USO DEL ACTOR |
-|:-----:|:---------------------:|:----------------------:|
-| Plataforma | Registrarse, iniciarSesion, modificarPerfil|   include| 
-| Usario |  consultarDisponibilidadInstalacion,dia, horaConcreta, reserva, CancelarReserva  | Include, Extend(Plataforma) |
-|       |                       |                        |
-|       |                       |                        |
-|       |                       |                        |
-|       |                       |                        |
-|       |                       |                        |
+|     ACTOR     | DESCRIPCION DEL ACTOR |                                              CASOS DE USO DEL ACTOR                                              |
+|:-------------:|:---------------------:|:----------------------------------------------------------------------------------------------------------------:|
+|    Usuario    |        Include        |   Registrarse, iniciar sesion, modificar perfil, consultar disponibilidad, realizar reserva, cancelar reserva    |
+| Administrador |                       | Añadir instalacion, modificar instalacion, desactivar instalacion, consultar lista de usuarios, boquear usuario |
+|               |                       |                                                                                                                  |
+|               |                       |                                                                                                                  |
+|               |                       |                                                                                                                  |
+|               |                       |                                                                                                                  |
+|               |                       |                                                                                                                  |
 
 
 Elabora un diagrama de casos de uso UML empleando la herramienta de modelado que estés utilizando (StarUML, draw.io). 
